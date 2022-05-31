@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".transaction">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/cashout_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cashout History"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/crdclr1"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:textAllCaps="false"/>
+
+
+        <Button
+            android:id="@+id/cashin_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cashin History"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/crdclr1"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textAllCaps="false"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

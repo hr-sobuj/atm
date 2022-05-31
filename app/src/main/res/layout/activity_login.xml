@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:weightSum="2"
+
+
+    tools:context=".login">
+
+
+
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:src="@drawable/lock" />
+
+        <!--    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:text="Email*"
+                android:textAlignment="center"
+
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />-->
+
+        <EditText
+            android:id="@+id/lognumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/sampleboxborderinred"
+            android:hint="Account Number*"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+
+        <!--     <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="0dp"
+                 android:layout_marginBottom="3dp"
+                 android:text="Password*"
+                 android:textAlignment="center"
+
+                 android:textColor="#fff"
+                 android:textSize="20sp"
+                 android:textStyle="bold" />-->
+
+        <EditText
+            android:id="@+id/logpin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/sampleboxborderinred"
+            android:hint="PIN*"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/adminloginic"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/submitbordar"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Log In"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+          <!--  <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password?"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="#fff"
+                />-->
+            <TextView
+                android:id="@+id/textreg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:text=" Create a Bank Account."/>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+    <!--
+    </ScrollView>
+    -->
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        >
+<!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="\©Developed By Bappy."
+            android:textSize="20sp"
+            android:textColor="#fff"/>
+-->
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

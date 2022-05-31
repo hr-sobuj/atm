@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginTop="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+
+
+        android:padding="7dp"
+
+        >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow android:layout_gravity="center"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Amount  "
+                        android:textSize="20sp"
+                        android:layout_marginRight="70dp"
+                        android:textColor="@color/colorPrimary"
+                        android:padding="2dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+"
+                        android:textSize="20sp"
+                        android:textColor="#00C853"
+                        android:padding="2dp"/>
+                    <TextView
+                        android:id="@+id/tk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Habibur Rahman Sobuj"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="0dp"
+                        android:textColor="#00C853"
+                        android:padding="2dp"/>
+
+
+
+                </LinearLayout>
+
+
+            </TableRow>
+
+
+
+
+
+        </TableLayout>
+
+
+
+</LinearLayout>
+</LinearLayout>

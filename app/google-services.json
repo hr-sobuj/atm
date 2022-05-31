@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "21096847536",
+    "firebase_url": "https://atmmanagementsystem-ab1a3.firebaseio.com",
+    "project_id": "atmmanagementsystem-ab1a3",
+    "storage_bucket": "atmmanagementsystem-ab1a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21096847536:android:858b97f4b4ff12786f8375",
+        "android_client_info": {
+          "package_name": "com.triangle.atm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21096847536-st4dd54et4soc3pf77fga7c12be0opil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEC0y9D-AYw8ZYiedOrrR5kYxsTdRnvQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21096847536-st4dd54et4soc3pf77fga7c12be0opil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
